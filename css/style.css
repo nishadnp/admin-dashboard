@@ -32,6 +32,10 @@ body {
     font-weight: 700;
 }
 
+.sidebar div > p {
+    display: inline;
+}
+
 .header {
     grid-area: header;
 }
