@@ -1,6 +1,5 @@
 *, ::before, ::after {
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 :root {
@@ -30,10 +29,25 @@ body {
     background-color: var(--color-primary);
     color: var(--color-secondary);
     font-weight: 700;
+    display: grid;
+    grid-template-rows: 50px repeat(2, min-content);
+    row-gap: 20px;
 }
 
 .sidebar  p {
     display: inline;
+    margin: 0.3rem;
+}
+
+nav img {
+    width: 25px;
+    height: 25px;
+}
+
+.dashboard-header, nav {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
 }
 
 .header {
