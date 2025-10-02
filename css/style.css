@@ -3,6 +3,11 @@
     border: 1px solid red;
 }
 
+:root {
+    --color-primary: #1e88e5;
+    --color-secondary: #ffffff;
+}
+
 html, body {
     margin: 0;
     padding: 0;
