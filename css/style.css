@@ -32,7 +32,7 @@ body {
     font-weight: 700;
 }
 
-.sidebar div > p {
+.sidebar  p {
     display: inline;
 }
 
