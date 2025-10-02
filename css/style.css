@@ -27,6 +27,9 @@ body {
 
 .sidebar {
     grid-area: sidebar;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    font-weight: 700;
 }
 
 .header {
