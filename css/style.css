@@ -87,3 +87,7 @@ nav img {
 #your-projects article {
     border-left: 10px solid var(--color-aesthetics1);
 }
+
+.sidebar .icons {
+    filter: invert(1) brightness(2);
+}
