@@ -67,6 +67,7 @@ nav img {
 
 .main-content article {
     background-color: var(--color-secondary);
+    border-radius: 5px;
 }
 
 #your-projects {
@@ -79,4 +80,8 @@ nav img {
 
 #your-projects > h3 {
     grid-column: 1 / -1;
+}
+
+#your-projects article {
+    border-left: 10px solid var(--color-aesthetics1);
 }
