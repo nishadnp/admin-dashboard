@@ -52,8 +52,10 @@ nav img {
     align-items: center;
 }
 
-.header {
+.main-header {
     grid-area: header;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(min-content, 1fr));
 }
 
 .main-content {
