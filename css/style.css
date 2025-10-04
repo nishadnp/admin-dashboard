@@ -66,14 +66,17 @@ body {
 .main-header {
     grid-area: header;
     display: grid;
-    grid-template-columns: repeat(3, minmax(min-content, 1fr));
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
 }
 
 button.notification {
     all: unset;
     cursor: pointer;
     width: 23px;
-    height: 23px;   
+    height: 23px; 
 }
 
 button.notification:active {
