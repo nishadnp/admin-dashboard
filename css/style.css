@@ -69,6 +69,18 @@ body {
     grid-template-columns: repeat(3, minmax(min-content, 1fr));
 }
 
+button.notification {
+    all: unset;
+    cursor: pointer;
+    width: 23px;
+    height: 23px;   
+}
+
+button.notification:active {
+    filter: invert(0.5);
+    transform: scale(0.9);
+}
+
 .main-content {
     grid-area: main;
     background-color: var(--color-main);
