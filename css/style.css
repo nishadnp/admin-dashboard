@@ -89,16 +89,39 @@ body {
     margin: 5px;
 }
 
+.main-header > div:first-of-type {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 button.notification {
     all: unset;
     cursor: pointer;
     width: 23px;
     height: 23px; 
+    vertical-align: middle;
 }
 
 button.notification:active {
     filter: invert(0.5);
     transform: scale(0.9);
+}
+
+.user-profile > p {
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.userpic-icon1, .userpic-icon2 {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    filter: invert(0.1);
+    border-radius: 25px;
 }
 
 .main-content {
