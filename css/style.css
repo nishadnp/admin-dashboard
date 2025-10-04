@@ -47,7 +47,11 @@ body {
     font-size: 1.2rem;
 }
 
-nav .icons {
+.sidebar .icons {
+    filter: invert(1) brightness(2);
+}
+
+.icons:not(.dashboard-header > .icons)  {
     width: 23px;
     height: 23px;
 }
@@ -92,8 +96,4 @@ nav .icons {
 
 #your-projects article {
     border-left: 10px solid var(--color-aesthetics1);
-}
-
-.sidebar .icons {
-    filter: invert(1) brightness(2);
 }
