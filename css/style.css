@@ -208,6 +208,7 @@ button.notification:active {
 
 #your-projects > h3 {
     grid-column: 1 / -1;
+    margin-bottom: -11px;
 }
 
 #your-projects article {
