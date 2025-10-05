@@ -249,6 +249,11 @@ button.notification:active {
     margin-left: 1rem;
 }
 
+.trending-project:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .trending-project > div p {
     margin: 0;
 }
