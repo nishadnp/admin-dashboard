@@ -1,3 +1,7 @@
+/* =====================================================
+   Global Reset & Variables
+   ===================================================== */
+
 *, ::before, ::after {
     box-sizing: border-box;
 }
@@ -17,6 +21,10 @@ html, body {
     line-height: 1.5;
 }
 
+/* =====================================================
+   Layout / Grid
+   ===================================================== */
+
 body {
     height: 100vh;
     display: grid;
@@ -26,6 +34,10 @@ body {
     'sidebar header'
     'sidebar main';
 }
+
+/* =====================================================
+   Sidebar
+   ===================================================== */
 
 .sidebar {
     grid-area: sidebar;
@@ -73,10 +85,6 @@ body {
     justify-items: center;
 }
 
-.text {
-    color: var(--color-text-muted);
-}
-
 .main-header > form {
     width: 90%;
 }
@@ -107,11 +115,6 @@ button.notification {
     width: 23px;
     height: 23px; 
     vertical-align: middle;
-}
-
-button.notification:active {
-    filter: invert(0.5);
-    transform: scale(0.9);
 }
 
 .user-profile > p {
@@ -180,9 +183,9 @@ button.notification:active {
     font-size: 1rem;
 }
 
-.user-action button:active {
-    transform: scale(0.9);
-}
+/* =====================================================
+   Main Content
+   ===================================================== */
 
 .main-content {
     grid-area: main;
@@ -197,6 +200,8 @@ button.notification:active {
     background-color: var(--color-secondary);
     border-radius: 5px;
 }
+
+/* Projects Section */
 
 #your-projects {
     display: grid;
@@ -227,10 +232,8 @@ button.notification:active {
     margin-right: 1.5rem;
 }
 
-.project-icons .icons:hover {
-    cursor: pointer;
-    transform: scale(1.3);
-}
+
+/* Announcements Section */
 
 #announcements article {
     padding: 2rem;
@@ -239,6 +242,8 @@ button.notification:active {
 #announcements .announcement-text {
     font-size: 0.8rem;
 }
+
+/* Trending Section */
 
 #trending > article {
     padding: 1rem 2rem;
@@ -254,15 +259,37 @@ button.notification:active {
     margin-left: 1rem;
 }
 
-.trending-project:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
 .trending-project > div p {
     margin: 0;
 }
 
 .trending-project > div p:first-of-type {
     font-weight: 700;
+}
+
+/* =====================================================
+   Typography / Text
+   ===================================================== */
+
+.text {
+    color: var(--color-text-muted);
+}
+
+/* =====================================================
+   Interactive & Hover Effects
+   ===================================================== */
+
+button.notification:active {
+    filter: invert(0.5);
+    transform: scale(0.9);
+}
+
+.project-icons .icons:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.trending-project:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
