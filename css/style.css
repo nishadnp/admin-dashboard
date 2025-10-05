@@ -222,7 +222,28 @@ button.notification:active {
     margin-right: 1.5rem;
 }
 
-#announcements {
-    display: grid;
-    grid-template-rows: min-content 1fr min-content 1fr;
+#announcements article {
+    padding: 2rem;
+}
+
+#trending > article {
+    padding: 1rem 2rem;
+}
+
+.trending-project {
+    margin: 1rem 0;
+}
+
+.trending-project > div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1rem;
+}
+
+.trending-project > div p {
+    margin: 0;
+}
+
+.trending-project > div p:first-of-type {
+    font-weight: 700;
 }
