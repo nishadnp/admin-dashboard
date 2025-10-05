@@ -207,4 +207,15 @@ button.notification:active {
 
 #your-projects article {
     border-left: 10px solid var(--color-aesthetics1);
+    position: relative;
+}
+
+.project-icons {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+}
+
+.project-icons img {
+    margin-right: 1.5rem;
 }
