@@ -7,6 +7,7 @@
     --color-secondary: #ffffff;
     --color-main: #e2e8f0;
     --color-aesthetics1: #f0b429;
+    --color-text-muted: #777;
 }
 
 html, body {
@@ -70,6 +71,10 @@ body {
     grid-template-rows: 1fr 2fr;
     align-items: center;
     justify-items: center;
+}
+
+.text {
+    color: var(--color-text-muted);
 }
 
 .main-header > form {
