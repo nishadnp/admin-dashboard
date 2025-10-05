@@ -231,6 +231,10 @@ button.notification:active {
     padding: 2rem;
 }
 
+#announcements .announcement-text {
+    font-size: 0.8rem;
+}
+
 #trending > article {
     padding: 1rem 2rem;
 }
