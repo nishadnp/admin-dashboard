@@ -67,7 +67,7 @@ body {
     grid-area: header;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     align-items: center;
     justify-items: center;
 }
@@ -125,7 +125,6 @@ button.notification:active {
 .userpic-icon1, .userpic-icon2 {
     vertical-align: middle;
     filter: invert(0.1);
-    
 }
 
 .welcome-user {
@@ -186,6 +185,7 @@ button.notification:active {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 20px;
+    padding: 10px 25px 75px 20px;
 }
 
 .main-content article {
