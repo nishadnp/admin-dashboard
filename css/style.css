@@ -124,7 +124,7 @@ button.notification:active {
 
 .userpic-icon1, .userpic-icon2 {
     vertical-align: middle;
-    filter: invert(0.1);
+    border: 3px solid var(--color-primary);
 }
 
 .welcome-user {
@@ -220,4 +220,9 @@ button.notification:active {
 
 .project-icons img {
     margin-right: 1.5rem;
+}
+
+#announcements {
+    display: grid;
+    grid-template-rows: min-content 1fr min-content 1fr;
 }
