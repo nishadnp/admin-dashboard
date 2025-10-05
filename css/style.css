@@ -61,7 +61,7 @@ body {
     display: grid;
     grid-template-columns: 40px 1fr;
     align-items: center;
-    column-gap: 3%
+    gap: 15px 3%;
 }
 
 .main-header {
