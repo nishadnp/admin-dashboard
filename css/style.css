@@ -184,8 +184,8 @@ button.notification:active {
     background-color: var(--color-main);
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 20px;
-    padding: 10px 25px 75px 20px;
+    gap: 30px;
+    padding: 10px 30px 75px 20px;
 }
 
 .main-content article {
@@ -203,11 +203,13 @@ button.notification:active {
 
 #your-projects > h3 {
     grid-column: 1 / -1;
+    margin-bottom: -20px;
 }
 
 #your-projects article {
     border-left: 10px solid var(--color-aesthetics1);
     position: relative;
+    padding: 3rem;
 }
 
 .project-icons {
